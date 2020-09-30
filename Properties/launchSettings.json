@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ExtraService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
