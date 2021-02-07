@@ -14,8 +14,8 @@ namespace ExtraService{
         {
             try
             {
-                // await _client.ConnectAsync(new Uri($"ws://localhost:5000/ws"), CancellationToken.None);
-                await _client.ConnectAsync(new Uri($"ws://monicawebsocketserver.azurewebsites.net/ws"), CancellationToken.None);
+                await _client.ConnectAsync(new Uri($"ws://localhost:5000/ws"), CancellationToken.None);
+                // await _client.ConnectAsync(new Uri($"ws://monicawebsocketserver.azurewebsites.net/ws"), CancellationToken.None);
 
                 await Task.Factory.StartNew(async () =>
                 {
@@ -57,7 +57,7 @@ namespace ExtraService{
             }
         }
 
-        public static async void EndConnectionAsync(object sender, EventArgs e) =>
+        public static async void EndConnectionAsync() =>
             await _client.CloseAsync(WebSocketCloseStatus.NormalClosure, "close", CancellationToken.None);
     }
 }

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>dotnet-ExtraService-0C27AF0D-916E-40F1-AF46-F1C37CF2451E</UserSecretsId>
+    <!-- <OutputType>WinExe</OutputType> -->
   </PropertyGroup>
 
   <ItemGroup>
