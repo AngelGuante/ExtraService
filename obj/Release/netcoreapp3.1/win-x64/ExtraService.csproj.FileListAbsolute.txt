@@ -270,4 +270,3 @@ D:\Mis cosas\I\Proyectos\.Net\.Net Core\ExtraService\obj\Release\netcoreapp3.1\w
 D:\Mis cosas\I\Proyectos\.Net\.Net Core\ExtraService\obj\Release\netcoreapp3.1\win-x64\ExtraService.dll
 D:\Mis cosas\I\Proyectos\.Net\.Net Core\ExtraService\obj\Release\netcoreapp3.1\win-x64\ExtraService.pdb
 D:\Mis cosas\I\Proyectos\.Net\.Net Core\ExtraService\obj\Release\netcoreapp3.1\win-x64\ExtraService.genruntimeconfig.cache
-D:\Mis cosas\I\Proyectos\.Net\.Net Core\ExtraService\bin\Release\netcoreapp3.1\win-x64\ExtraService Notification\ExtraService Notification.exe.config
